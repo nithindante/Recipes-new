@@ -1,0 +1,158 @@
+.firstHeader{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+}
+
+.picture{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.words{
+        flex-basis: 300px;
+}
+
+p:first-child{
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9f1f8;
+}
+img{
+    height: 250px;
+    width: 450px;
+}
+
+.header{
+    background-color: #1f2937;
+    color: white;
+}
+
+.links > div{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+body{
+    margin:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p:nth-child(2)
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.firstHeader > div{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button{
+   background-color:  #3882f6;
+   color: white;
+   border-radius: 5px;
+   padding: 5px 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+.subText{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.illustrations{
+height: 175px;
+width: 175px;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+gap: 5px;
+}
+
+.firstDiv{
+    
+    width: auto;
+    border: 2px solid rgb(9, 115, 236);
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.firstDiv ~ div{
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+    flex-direction: column;
+}
+
+span{
+    width: 400px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.body{
+    padding:75px;
+}
+span:nth-child(2)
+{
+    align-self: flex-end;
+    color: #0f141b;
+    font-size: 28px;
+    margin-right: 60px;
+}
+
+.signUp{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.box{
+    display: flex;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.innerBox{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+}
